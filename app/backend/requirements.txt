@@ -4,6 +4,131 @@
 #
 #    pip-compile requirements.in
 #
+# The following packages are included in this requirements file:
+#
+# - aiofiles: Asynchronous file operations
+# - aiohappyeyeballs: Happy Eyeballs algorithm for asyncio
+# - aiohttp: Asynchronous HTTP client/server framework
+# - aiosignal: Signal handling for asyncio
+# - annotated-types: Type annotations for Python
+# - anyio: Asynchronous I/O framework
+# - asgiref: ASGI specification and utilities
+# - attrs: Classes without boilerplate
+# - azure-ai-documentintelligence: Azure AI Document Intelligence SDK
+# - azure-cognitiveservices-speech: Azure Cognitive Services Speech SDK
+# - azure-common: Azure common code
+# - azure-core: Azure core library
+# - azure-core-tracing-opentelemetry: OpenTelemetry tracing for Azure SDKs
+# - azure-identity: Azure Identity library
+# - azure-monitor-opentelemetry: Azure Monitor OpenTelemetry exporter
+# - azure-monitor-opentelemetry-exporter: Azure Monitor OpenTelemetry exporter
+# - azure-search-documents: Azure Cognitive Search SDK
+# - azure-storage-blob: Azure Blob Storage SDK
+# - azure-storage-file-datalake: Azure Data Lake Storage SDK
+# - beautifulsoup4: HTML/XML parser
+# - blinker: Fast, simple object-to-object and broadcast signaling
+# - certifi: Python package for providing Mozilla's CA Bundle
+# - cffi: Foreign Function Interface for Python calling C code
+# - charset-normalizer: Charset detection for Python
+# - click: Command Line Interface creation kit
+# - cryptography: Cryptographic recipes and primitives
+# - deprecated: Python decorator to deprecate old functions
+# - distro: Linux distribution information
+# - fixedint: Fixed-width integer types
+# - flask: Micro web framework
+# - frozenlist: Immutable list implementation
+# - h11: HTTP/1.1 protocol implementation
+# - h2: HTTP/2 protocol implementation
+# - hpack: HTTP/2 header encoding
+# - httpcore: HTTP/1.1 and HTTP/2 protocol support
+# - httpx: HTTP client for Python
+# - hypercorn: ASGI server based on Hyper
+# - hyperframe: HTTP/2 framing layer
+# - idna: Internationalized Domain Names in Applications (IDNA)
+# - importlib-metadata: Read metadata from Python packages
+# - isodate: ISO 8601 date/time/duration parser
+# - itsdangerous: Various helpers to pass trusted data to untrusted environments
+# - jinja2: Templating engine for Python
+# - jiter: Jitter utilities for Python
+# - markupsafe: Safely add untrusted strings to HTML/XML
+# - microsoft-kiota-abstractions: Microsoft Kiota abstractions library
+# - microsoft-kiota-authentication-azure: Microsoft Kiota Azure authentication library
+# - microsoft-kiota-http: Microsoft Kiota HTTP library
+# - microsoft-kiota-serialization-json: Microsoft Kiota JSON serialization library
+# - microsoft-kiota-serialization-text: Microsoft Kiota text serialization library
+# - msal: Microsoft Authentication Library (MSAL) for Python
+# - msal-extensions: Extensions for MSAL
+# - msgraph-core: Microsoft Graph core library
+# - msgraph-sdk: Microsoft Graph SDK
+# - msrest: AutoRest runtime library for Python
+# - multidict: Multidict implementation
+# - numpy: Fundamental package for scientific computing with Python
+# - oauthlib: OAuth library
+# - openai: OpenAI API client library
+# - openai-messages-token-helper: Helper for OpenAI messages token
+# - opentelemetry-api: OpenTelemetry API
+# - opentelemetry-instrumentation: OpenTelemetry instrumentation
+# - opentelemetry-instrumentation-aiohttp-client: OpenTelemetry instrumentation for aiohttp client
+# - opentelemetry-instrumentation-asgi: OpenTelemetry instrumentation for ASGI
+# - opentelemetry-instrumentation-dbapi: OpenTelemetry instrumentation for DBAPI
+# - opentelemetry-instrumentation-django: OpenTelemetry instrumentation for Django
+# - opentelemetry-instrumentation-fastapi: OpenTelemetry instrumentation for FastAPI
+# - opentelemetry-instrumentation-flask: OpenTelemetry instrumentation for Flask
+# - opentelemetry-instrumentation-httpx: OpenTelemetry instrumentation for HTTPX
+# - opentelemetry-instrumentation-openai: OpenTelemetry instrumentation for OpenAI
+# - opentelemetry-instrumentation-psycopg2: OpenTelemetry instrumentation for psycopg2
+# - opentelemetry-instrumentation-requests: OpenTelemetry instrumentation for requests
+# - opentelemetry-instrumentation-urllib: OpenTelemetry instrumentation for urllib
+# - opentelemetry-instrumentation-urllib3: OpenTelemetry instrumentation for urllib3
+# - opentelemetry-instrumentation-wsgi: OpenTelemetry instrumentation for WSGI
+# - opentelemetry-resource-detector-azure: OpenTelemetry resource detector for Azure
+# - opentelemetry-sdk: OpenTelemetry SDK
+# - opentelemetry-semantic-conventions: OpenTelemetry semantic conventions
+# - opentelemetry-semantic-conventions-ai: OpenTelemetry semantic conventions for AI
+# - opentelemetry-util-http: OpenTelemetry HTTP utilities
+# - packaging: Core utilities for Python packages
+# - pendulum: Python datetimes made easy
+# - pillow: Python Imaging Library (PIL) fork
+# - portalocker: Cross-platform file locking
+# - priority: HTTP/2 priority tree
+# - psutil: Cross-platform process and system utilities
+# - pycparser: C parser in Python
+# - pydantic: Data validation and settings management using Python type annotations
+# - pydantic-core: Core utilities for pydantic
+# - pyjwt: JSON Web Token implementation in Python
+# - pymupdf: Python bindings for MuPDF
+# - pymupdfb: Python bindings for MuPDF (binary)
+# - pypdf: PDF toolkit
+# - python-dateutil: Extensions to the standard Python datetime module
+# - python-dotenv: Read key-value pairs from a .env file and set them as environment variables
+# - quart: ASGI web framework
+# - quart-cors: CORS support for Quart
+# - regex: Alternative regular expression module
+# - requests: HTTP library for Python
+# - requests-oauthlib: OAuthlib support for requests
+# - six: Python 2 and 3 compatibility utilities
+# - sniffio: Async library sniffing
+# - soupsieve: CSS selector library for BeautifulSoup
+# - std-uritemplate: URI template library
+# - tenacity: Retry library
+# - tiktoken: Tokenizer for OpenAI models
+# - time-machine: Mock dates and times
+# - tqdm: Fast, extensible progress bar for Python
+# - types-beautifulsoup4: Type annotations for BeautifulSoup4
+# - types-html5lib: Type annotations for html5lib
+# - types-pillow: Type annotations for Pillow
+# - typing-extensions: Backported and experimental type hints
+# - tzdata: Timezone database
+# - urllib3: HTTP library with thread-safe connection pooling
+# - uvicorn: ASGI server implementation
+# - werkzeug: Comprehensive WSGI web application library
+# - wrapt: Decorators, wrappers, and monkey patching
+# - wsproto: WebSockets state-machine based protocol implementation
+# - yarl: Yet another URL library
+# - zipp: Backport of pathlib-compatible object wrapper for zip files
+#
+# Note: The following packages are considered to be unsafe in a requirements file:
+# - setuptools
 aiofiles==24.1.0
     # via quart
 aiohappyeyeballs==2.4.0
